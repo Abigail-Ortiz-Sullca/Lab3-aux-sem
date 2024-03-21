@@ -1,0 +1,24 @@
+Arrow Functions en JavaScript
+
+Las funciones de flecha, introducidas en ES6, permiten escribir la sintaxis de las funciones de manera más corta.
+ Aquí están algunas de sus características principales:
+
+Sintaxis concisa: Las funciones de flecha tienen una sintaxis más corta en comparación con las funciones tradicionales. 
+Por ejemplo, una función de flecha puede verse así: let myFunction = (a, b) => a * b;.
+No hay enlace this: A diferencia de las funciones regulares, las funciones de flecha no crean su propio contexto para this.
+ En su lugar, this se refiere al contexto del objeto que definió la función de flecha.
+Retorno implícito: Si el cuerpo de la función consta de una sola declaración que devuelve un valor, puedes omitir las 
+llaves {} y la palabra clave return. El resultado de la expresión se devolverá automáticamente.
+
+---
+Callbacks en JavaScript
+
+Un callback en JavaScript es una función que se pasa como argumento a otra función y se ejecuta cuando la función 
+receptora completa su tarea.
+Características principales:
+Asincronía: Los callbacks son una característica muy importante de la programación asíncrona. Permiten que la función 
+que recibe el callback llame a nuestro código cuando termina una tarea larga, mientras nos permite continuar la ejecución 
+del código.
+Control de secuencia: A veces, te gustaría tener un mejor control sobre cuándo ejecutar una función. Supón que quieres 
+hacer un cálculo y luego mostrar el resultado. Podrías llamar a una función de calculadora (myCalculator), guardar el 
+resultado y luego llamar a otra función (myDisplayer) para mostrar el resultado.
