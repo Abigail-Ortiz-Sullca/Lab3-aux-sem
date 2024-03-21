@@ -1,5 +1,13 @@
-const sortFruits = (fruits) => fruits.sort();
+function sortFruits(fruits) {
+	return fruits.sort();
+} 
 
-const getElementInTheMiddle = (list) => list[Math.floor(list.length / 2)];
+function getElementInTheMiddle(list) {
+	return list[list.length / 2];
+}
 
-const adminLogin = (user) => (user == "ADMIN" || user == "DEV") ? true : false;
+function adminLogin(user) {
+	if(user == "ADMIN") return true;
+	if(user == "DEV") return true;
+	return false;
+}
